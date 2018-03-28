@@ -1,3 +1,19 @@
-<style>
 
-</style>
+
+header {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+  }
+
+body {
+  background: url("https://i.imgur.com/qRnLqdU.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  background-color: #333333;
+  text-align: center;
+}
+input {
+  width: 100px;
+  height: 20px;
+}
