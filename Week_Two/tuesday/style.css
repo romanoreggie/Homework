@@ -1,33 +1,35 @@
-
-
 header {
-    text-align: center;
-    font-size: 35px;
-    color: white;
-  }
+  text-align: center;
+  font-size: 35px;
+  color: #F7A54D;
+}
 
 body {
   background: url("https://i.imgur.com/qRnLqdU.jpg");
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: 100%;
   background-color: #333333;
   text-align: center;
 }
-input [type=text] {
-    width: 120px;
-    box-sizing: border-box;
-    border: 5px solid #333333;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.7s ease-in-out;
-    transition: width 0.7s ease-in-out;
+
+textarea {
+  box-sizing: border-box;
+  border: 5px solid #333333;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #d9d9d9;
+  color: #333333;
+  padding: 5px 15px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  resize: none;
 }
 
-input[type=text]:focus {
-    width: 50%;
-    height: 10%;
+textarea:focus {
+  width: 60%;
+  height: 150px;
+}
+
+input [type=submit] {
+  padding: 25px 40px;
 }
