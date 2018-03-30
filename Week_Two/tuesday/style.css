@@ -1,7 +1,16 @@
-header {
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
   text-align: center;
-  font-size: 35px;
-  color: #F7A54D;
+  text-shadow: 4px 4px rgba(51, 51, 51, .25);
+  font-size: 70px;
+  color: rgba(158, 114, 89, .95);
 }
 
 body {
@@ -17,19 +26,23 @@ textarea {
   border: 5px solid #333333;
   border-radius: 4px;
   font-size: 16px;
-  background-color: #d9d9d9;
+  background-color: rgba(217, 217, 217, .7);
   color: #333333;
-  padding: 5px 15px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+  padding: 5px 10px;
   resize: none;
 }
 
 textarea:focus {
-  width: 60%;
-  height: 150px;
+  outline: none;
+  width: 50%;
+  height: 175px;
 }
 
-input [type=submit] {
-  padding: 25px 40px;
+.black-background {
+  background-color: #333333;
+  border-color: rgba(158, 114, 89, .95);
 }
+
+/* input [type=submit] {
+  background-color: #333333;
+} */
