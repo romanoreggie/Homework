@@ -42,6 +42,32 @@ textarea {
   border-color: rgba(158, 114, 89, .95);
 }
 
+/* #footerlink1 #footerlink2 #footerlink3 {
+  font-size: 35px;
+  text-decoration: none;
+  color: #333333;
+} */
+#footerlink1 {
+  padding: 15px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #333333;
+}
+
+#footerlink2 {
+  padding: 15px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #333333;
+}
+
+#footerlink3{
+  padding: 15px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #333333;
+}
+
 section {
   text-align: center;
   color: white;

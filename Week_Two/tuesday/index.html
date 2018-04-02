@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css">
@@ -57,7 +58,7 @@
         <div class="form-group">
           <textarea class="postControl" rows="5" id="post">Your post..</textarea>
         </div>
-        <input type="submit" class="btn btn-primary black-background white" value="Post">
+        <input id="postButton" type="submit" class="btn btn-primary black-background white" value="Post">
       </form>
     </div>
   </div>
@@ -71,7 +72,7 @@
           <div class="col-sm-3"></div>
           <div class="col-sm-6">
             <blockquote class="blockquote text-center">
-              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <p id="text1" class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
               <footer class="blockquote-footer">
             </blockquote>
           </div>
@@ -83,7 +84,7 @@
           <div class="col-sm-3"></div>
           <div class="col-sm-6">
             <blockquote class="blockquote text-center">
-              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <p id="text2" class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
               <footer class="blockquote-footer">
             </blockquote>
           </div>
@@ -95,7 +96,7 @@
           <div class="col-sm-3"></div>
           <div class="col-sm-6">
             <blockquote class="blockquote text-center">
-              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <p id="text3" class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
               <footer class="blockquote-footer">
             </blockquote>
           </div>
@@ -107,7 +108,7 @@
           <div class="col-sm-3"></div>
           <div class="col-sm-6">
             <blockquote class="blockquote text-center">
-              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <p id="text4" class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
               <footer class="blockquote-footer">
             </blockquote>
           </div>
@@ -120,7 +121,10 @@
   <!--Footer  -->
   <footer class="footer">
     <div class="container">
-      <span class="text-muted">Footer here</span>
+      <span class="text-muted">
+        <a id="footerlink1" href="https://twitter.com/reggie_romano?ref_src=twsrc%5Etfw"><i class="fa fa-twitter"></i></a>
+        <a id="footerlink2" href="https://www.instagram.com/romanoreggie/"><i class="fa fa-instagram"></i></a>
+        <a id="footerlink3" href="https://www.facebook.com/reggie.romano.9"><i class="fa fa-facebook"></i></a>  </span>
     </div>
   </footer>
 
