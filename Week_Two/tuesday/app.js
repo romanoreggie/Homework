@@ -5,9 +5,9 @@ let pastPost = [];
 document.getElementById("postButton").addEventListener("click", function(e) {
 
   e.preventDefault();
-if (pastPost == ("")){
-  alert("Must input text");
-} else {
+// if (pastPost == ("")){
+//   alert("Must input text");
+// } else {
 
   let textPost = document.getElementById('post').value;
   pastPost.push(textPost)
@@ -16,7 +16,7 @@ if (pastPost == ("")){
   document.getElementById('text3').innerHTML = pastPost[pastPost.length - 3];
   document.getElementById('text4').innerHTML = pastPost[pastPost.length - 4];
   console.log(pastPost[pastPost.length - 1]);
-}
+// }
 });
 
 // document.getElementById("postButton").addEventListener("click", function (e) {
