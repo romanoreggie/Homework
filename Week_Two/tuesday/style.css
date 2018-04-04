@@ -17,6 +17,13 @@ div.page-header {
 #nav_header {
   position: sticky;
 }
+
+#postButton:hover {
+  background-color: #333333;
+  /* border-color: rgba(158, 114, 89, .95); */
+}
+
+
 body {
   background-color: #333333;
   text-align: center;
@@ -47,21 +54,7 @@ textarea {
   text-decoration: none;
   color: #333333;
 } */
-#footerlink1 {
-  padding: 15px;
-  font-size: 30px;
-  text-decoration: none;
-  color: #333333;
-}
-
-#footerlink2 {
-  padding: 15px;
-  font-size: 30px;
-  text-decoration: none;
-  color: #333333;
-}
-
-#footerlink3{
+#footerlink1, #footerlink2, #footerlink3 {
   padding: 15px;
   font-size: 30px;
   text-decoration: none;
